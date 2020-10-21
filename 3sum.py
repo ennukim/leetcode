@@ -5,6 +5,10 @@ Tried again on Tue Oct 20, 2020
 """
 
 #initial try
+#pointer function - O(n)
+#for loop - n times
+#sort() - O(nlogn)
+#Total - O(nlogn + n^2)
 def threeSum(nums):
     res = []
     nums.sort()
@@ -36,7 +40,7 @@ def threeSum(nums):
 
 #no sorting version
 def threeSum2(nums):
-
+    
 
 nums = [-1, 0, 1, 2, -1, -4]
 print(threeSum2(nums))
