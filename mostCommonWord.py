@@ -1,3 +1,6 @@
+#   Most Common Word
+#   Amazon Interview Question
+
 def mostCommonWord(paragraph, banned):
     normalized_str = ''.join([c.lower() if c.isalnum() else ' ' for c in paragraph])
     words = normalized_str.split()
