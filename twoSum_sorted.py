@@ -1,7 +1,6 @@
 #   Two Sum II - Input array is sorted
 #   Amazon Interview Question
 
-
 def twoSum(numbers, target):
     left = 0
     right = len(numbers)-1
