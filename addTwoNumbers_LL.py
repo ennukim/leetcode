@@ -30,7 +30,6 @@ class Solution(object):
 
         return header.next
 
-
 l1 = ListNode(2)
 l1.next = ListNode(4)
 l1.next.next = ListNode(3)

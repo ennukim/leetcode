@@ -10,7 +10,6 @@ def intToRoman(num):
     while remainder:
         quotient = remainder // nums[i]
         remainder %= nums[i]
-
         while quotient:
             string += symbol[i]
             quotient -= 1

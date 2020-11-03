@@ -6,4 +6,3 @@ class Node:
 
 class Solution(object):
     def copyRandomList(self, head):
-        

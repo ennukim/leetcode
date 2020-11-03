@@ -24,6 +24,5 @@ def romanToInt2(s):
             z += roman[s[i]]
     return z + roman[s[-1]]
 
-
 s = "MCMXCIV"
 print(romanToInt2(s))
