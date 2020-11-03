@@ -3,6 +3,7 @@ class ListNode(object):
         self.val = val
         self.next = next
 
+# pointer zig zag
 class Solution(object):
     def mergeTwoLists(l1, l2):
         result = cur = ListNode()
