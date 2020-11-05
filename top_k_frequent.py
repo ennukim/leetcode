@@ -31,8 +31,17 @@ def topKFrequent(nums, k):
         lst.pop(lst.index(max(lst)))
         
     return ans
-                
+
+from collections import Counter  
+import heapq
+
+def topKFrequent2(nums, k):
+    if len(nums) == k:
+        return nums
+    c = Counter(nums) # O(n)
+    
+    return heapq.nlargest(k, c.keys(), key=c.get)
 
 nums = [1,1,1,2,2,3]
 k = 2
-print(topKFrequent(nums, k))
+print(topKFrequent2(nums, k))
