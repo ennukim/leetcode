@@ -21,3 +21,5 @@ def kClosest(points, K):
 points = [[1,3],[-2,2],[2,-2]]
 K = 2
 print(kClosest(points, K))
+
+#  alternative approach can be done with heappushpop
