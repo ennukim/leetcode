@@ -24,13 +24,15 @@ def backspaceCompare(S, T):
     # print(ns, nt)
     return ns == nt
 
+# True
 # S = "ab#c"
 # T = "ad#c"
-S = "a#c"
-T = "b"
-
 # S = "a##c"
 # T = "#a#c"
 # S = "ab##"
 # T = "c#d#"
+
+# False
+S = "a#c"
+T = "b"
 print(backspaceCompare(S, T))
